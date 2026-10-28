@@ -1,0 +1,10 @@
+node_modules/
+work/
+outputs/
+*.log
+.env
+.env.*
+config*.toml
+*.backup
+*.bak
+.DS_Store

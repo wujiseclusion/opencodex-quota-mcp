@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "name": "opencodex-quota-mcp-server",
+  "description": "Read-only local MCP server for OpenCodex provider quotas, balances and reset times",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "repository": { "type": "git", "url": "https://github.com/wujiseclusion/opencodex-quota-mcp.git" },
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs",
+    "test:live": "node --env-file=live-test.env --test test.mjs"
+  }
+}
